@@ -1,0 +1,180 @@
+/* common css */
+
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.text-center{
+    text-align: center;
+}
+
+
+/* layout-01 */
+
+.title1{
+    text-align: center;
+    color: cornflowerblue;
+    margin-top: 120px;
+}
+
+.header1{
+    height: 120px;
+    background-color: red;
+}
+
+.container1{}
+
+.bame{
+    height: 320px;
+    background-color: rgb(189, 236, 16);
+    float: left;
+    width: 49%;
+}
+
+.dane{
+    height: 320px;
+    background-color: rgb(16, 230, 44);
+    float: right;
+    width: 49%;
+}
+
+.footer1{
+    height: 120px;
+    background-color: rgb(34, 43, 35);
+}
+
+
+/* layout-02 */
+
+.header2{
+    height: 120px;
+    
+}
+.logo{
+    background-color: burlywood;
+    height: 120px;
+    width: 30%;
+    font-size: 60px;
+
+}
+.nav{
+    background-color: rgb(109, 122, 241);
+    height: 120px;
+    width: 70%;
+    font-size: 60px;
+
+
+}
+
+
+.slider{
+    height: 320px;
+    background-color: rgb(193, 194, 189);
+    font-size: 60px;
+
+}
+
+
+.container2{}
+.content{
+    width: 65%;
+    background-color: rgb(231, 87, 20);
+    height: 520px;
+    font-size: 60px;
+    color: white;
+
+}
+.post{
+    width: 35%;
+    background-color: rgb(240, 150, 89);
+    height: 520px;
+    font-size: 60px;
+    color: white;
+
+}
+
+
+.four-sec{}
+
+.one{
+    background-color: rgb(3, 54, 66);
+    height: 320px;
+    font-size: 60px;
+    width: 25%;
+
+}
+.two{
+    background-color: rgb(21, 118, 131);
+    height: 320px;
+    font-size: 60px;
+    width: 25%;
+
+
+}
+.three{
+    background-color: rgb(44, 190, 201);
+    height: 320px;
+    font-size: 60px;
+    width: 25%;
+
+
+}
+.four{
+    background-color: rgb(136, 241, 245);
+    height: 320px;
+    font-size: 60px;
+    width: 25%;
+
+
+}
+
+.footer2{
+    height: 120px;
+    background-color: rgb(28, 66, 32);
+    font-size: 60px;
+    color: white;
+    text-align: center;
+}
+
+
+
+/* Layout-03 */
+.potaka{
+   position: relative;
+   margin: 0 auto;
+  
+}
+.green{
+    height: 149px;
+    width: 281px;
+    background-color: green;
+    box-shadow: 6px 6px 17px rgb(0 0 0 / 50%);
+
+
+}
+
+.red{
+    height: 104px;
+    width: 104px;
+    border-radius: 50%;
+    background-color: red;
+    text-align: center;
+    margin: auto;
+    position: absolute;
+    left: 91px;
+    top: 22px;
+}
+.danda{
+    height: 416px;
+    width: 11px;
+    background-color: rgb(53, 14, 14);
+
+}
+
